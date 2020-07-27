@@ -2,7 +2,7 @@ import { Component, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'hello',
-  templateUrl:
+  template:
     '<h1> Hello {{title}}! </h1> <button (click)="emitEvent()"> Emit an Event </button>'
 })
 export class HelloComponent {
